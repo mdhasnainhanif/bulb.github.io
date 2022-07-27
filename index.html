@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="fav.webp">
+    <title>Bulb Tast</title>
+  </head>
+  <body>
+
+    <div style="text-align: center; width: 100%;">
+    <img style="text-align: center !important;" width="17%" src="off.png" onmouseover="changePic1()" onmouseout= "changePic2()" id="myImg">
+    </div>
+
+
+  <script>
+ 
+ function changePic1() {
+document.getElementById("myImg").src = "on.png";
+   }
+  function changePic2(){
+   document.getElementById("myImg").src = "off.png";
+   }
+  
+    </script>
+  </body>
+</html>
